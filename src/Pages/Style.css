@@ -1,0 +1,507 @@
+.hero-container {
+    /* background-color: aquamarine; */
+    padding-top: 100px !important;
+    background-image: url("/public/img/h1_hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    min-height: 800px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-container .card {
+    border: none;
+    background-color: transparent;
+    width: 90%;
+}
+
+.hero-container .card .test-text {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: rgb(255, 86, 0);
+}
+
+.hero-container .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 8vw;
+    font-weight: 700;
+    line-height: 104.4px;
+    color: rgb(33, 32, 37);
+    line-height: 90px;
+}
+
+.hero-container .card .desc-text {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(33, 32, 37);
+}
+
+.hero-container .card .res-btn {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #ff5600;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+}
+
+.hero-container .card .res-btn:hover {
+    background-color: #e74d00;
+}
+
+@media (max-width:990px) {
+    .hero-container {
+        background-size: cover;
+        min-height: 600px;
+    }
+
+    .hero-container .card .card-title {
+        font-size: 8vw;
+        line-height: 60px !important;
+    }
+}
+
+@media (max-width:500px) {
+    .hero-container {
+        min-height: 100px;
+    }
+
+    .hero-container .card .desc-text {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .hero-container .card .card-title {
+        font-size: 7vw;
+        line-height: 30px !important;
+    }
+}
+
+/* hero-about */
+
+
+.hero-about {
+    padding: 200px 0px;
+}
+
+.hero-about .card {
+    border: none;
+    border-radius: 0px;
+}
+
+/* .hero-about .card  */
+
+.hero-about .card .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.hero-about .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 5vw;
+    font-weight: 600;
+    line-height: 60px;
+    color: rgb(33, 32, 37);
+}
+
+.hero-about .card .about-img img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.services-container .services-text {
+    margin-left: 10px;
+}
+
+@media (max-width:980px) {
+    .hero-about {
+        padding: 50px 0px;
+    }
+
+    .hero-about .card .card-title {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 4vw;
+        font-weight: 600;
+        line-height: 45px;
+        color: rgb(33, 32, 37);
+    }
+
+    .hero-about .card .flex-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* text-align: center; */
+    }
+
+    .services-container .row {
+        justify-content: center;
+    }
+
+}
+
+/* menu container */
+
+.menu-container {
+    padding: 100px 0px;
+    background-color: #f8f8f8;
+}
+
+.menu-container .card {
+    margin-top: 100px;
+    background-color: transparent;
+    border: none;
+}
+
+.menu-container .card .card-text {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 86, 0);
+}
+
+.menu-container .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 63.7px;
+    color: rgb(33, 32, 37);
+}
+
+.menu-container .card .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.menu-container .card .btn-container .btn {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(27, 27, 27);
+}
+
+.active-btn {
+    background-color: #e74d00;
+    color: #f8f8f8;
+}
+
+
+@media (max-width:980px) {
+    .menu-container .card .card-title {
+        font-size: 6vw;
+        line-height: 55px;
+    }
+
+    .menu-container .card .btn-container {
+        gap: 20px;
+    }
+}
+
+@media (max-width:580px) {
+    .menu-container .card .card-title {
+        font-family: "Josefin Sans", sans-serif;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 24px;
+        color: rgb(33, 37, 41);
+    }
+}
+
+/* services provided */
+
+.servicesProvide {
+    padding: 100px 20px;
+}
+
+.servicesProvide .card {
+    border: none;
+}
+
+.servicesProvide .card .card-text {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 86, 0);
+}
+
+.servicesProvide .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 63.7px;
+    color: rgb(33, 32, 37);
+}
+
+.servicesProvide .servicesProvideCont .card {
+    padding: 100px 0px;
+    transition: all 0.5s ease;
+}
+
+.servicesProvide .servicesProvideCont .card-active {
+    padding: 100px 0px;
+    box-shadow: 0 0 10px rgba(180, 180, 180, 0.5);
+}
+
+.servicesProvide .servicesProvideCont .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+    color: rgb(21, 24, 29);
+}
+
+.servicesProvide .servicesProvideCont .card .card-text {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(130, 130, 130);
+}
+
+.servicesProvide .servicesProvideCont .card:hover {
+    box-shadow: 0 0 10px rgba(180, 180, 180, 0.5);
+}
+
+/* food-container */
+
+.food-container .slide-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.food-container .slide-wrapper .card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transform: translateY(100%);
+    transition: all 0.8s ease;
+}
+
+.food-container .slide-wrapper:hover .card {
+    transform: translateY(0);
+}
+
+.food-container .slide-wrapper .card .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.food-container .slide-wrapper .card .card-body .card-text {
+    font-family: Poppins, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: rgb(255, 86, 0);
+}
+
+.food-container .slide-wrapper .card .card-body .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    color: rgb(255, 255, 255);
+}
+
+.food-container .slide-wrapper .card .card-body .card-desc {
+    font-family: Poppins, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(255, 255, 255);
+}
+
+.food-container .slide-wrapper .card .card-body .btn {
+    background-color: #ff5600;
+    color: #f8f8f8;
+}
+
+/* about-header */
+
+.about-header {
+    padding: 50px 0px;
+    height: 400px;
+    background-image: url("/public/img/hero2.png");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-header .card {
+    background-color: transparent;
+    border: none;
+}
+
+.about-header .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+    color: rgb(33, 32, 37);
+}
+
+/* about resto */
+
+.about-resto {
+    margin: 150px 0px;
+}
+
+.about-resto .card {
+    border: none;
+}
+
+.about-resto .card .card-desc {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 86, 0);
+}
+
+.about-resto .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 49px;
+    font-size: 3.8vw;
+    font-weight: 600;
+    line-height: 63.7px;
+    color: rgb(33, 32, 37);
+}
+
+.about-resto .card .card-text {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(33, 32, 37);
+}
+
+.about-resto .card .card-btn {
+    margin-top: 20px;
+    padding: 20px 35px;
+    border: 1px solid #e74d00;
+    background-color: rgba(227, 226, 226, 0.174);
+    border-radius: 8px;
+    transition: all 0.5s ease;
+}
+
+.about-resto .card .card-btn:hover {
+    background-color: #ff5600;
+    color: #f8f8f8;
+}
+
+/* Book Table */
+
+.bookTable {
+    background-image: url("/public/img/section_bg04.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 50px;
+    margin-top: 150px;
+}
+
+.bookTable .card {
+    background-color: transparent;
+    border: none;
+}
+
+.bookTable .card .card-text {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(255, 86, 0);
+}
+
+.bookTable .card .card-title {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 49px;
+    font-weight: 600;
+    line-height: 63.7px;
+    color: rgb(33, 32, 37);
+}
+
+.bookTable .form-container {
+    margin-top: 50px;
+    padding: 0px 20px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bookTable .form-container .inp-filed {
+    padding: 20px 20px;
+    box-shadow: none;
+}
+
+.bookTable .form-container button {
+    background-color: #ff5600;
+    color: #fff;
+    transition: all 0.5s ease;
+}
+
+.bookTable .form-container button:hover {
+    background-color: #e74d00;
+}
+
+.contactContainer {
+    padding: 100px 0px;
+    height: 450px;
+    background-image: url("/public/img/hero2.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contactContain {
+    padding: 100px 10px;
+}
+
+.contactContain .contact-header {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 32.4px;
+    color: rgb(33, 32, 37);
+    margin-left: 20px;
+}
+
+.contactContain form input,
+textarea {
+    padding: 15px;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.contactContain form button {
+    font-family: "Josefin Sans", sans-serif;
+    border: 1px solid #ff5600;
+    color: #ff5600;
+}
+
+.contactContain form button:hover{
+    background-color: #ff5600;
+    color: #f8f8f8;
+}

@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url("/public/fonts/Josefin_Sans/static/JosefinSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url("/public/fonts/Popins/Poppins-Regular.ttf");
+}
+
+.navbar-nav {
+    gap: 60px;
+    align-items: center
+}
+
+.navbar-toggler {
+    border: none;
+    box-shadow: none !important;
+}
+
+.navbar-toggler .bi-list {
+    font-size: 30px;
+    color: black;
+}
+
+.online-btn {
+    padding: 15px 20px;
+    border: 1px solid #ff5600;
+}
+
+.online-btn:hover {
+    background-color: #ff5600;
+    color: aliceblue;
+}
+
+.nav-link,.dropdown-item {
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.nav-link:hover, .dropdown-item:hover {
+    color: #ff5600 !important;
+    background-color: transparent;
+}
+
+@media (max-width:990px) {
+    .navbar-nav {
+        gap: 10px;
+        align-items: flex-start !important;
+    }
+}
+
+.footer-container{
+    background-image: url("/public/img/section_bg02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    padding-top: 100px;
+    min-height: 450px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.footer-container .card, .list-group-item{
+    background-color: transparent !important;
+    /* background-color: #fff; */
+    border: none;
+}
+
+.footer-container .card .card-header, .list-group-item{
+    color: aliceblue;
+    transition: all 0.5s ease;
+}
+
+.footer-container .card .card-header:hover, .list-group-item:hover{
+    color: #ff5600;
+    transform: translateX(5px);
+}
