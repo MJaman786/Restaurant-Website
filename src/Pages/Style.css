@@ -419,6 +419,8 @@
     margin-top: 150px;
 }
 
+
+
 .bookTable .card {
     background-color: transparent;
     border: none;
@@ -442,8 +444,8 @@
 
 .bookTable .form-container {
     margin-top: 50px;
-    padding: 0px 20px;
-    height: 200px;
+    padding: 50px 20px;
+    /* height: 200px; */
     border-radius: 10px;
     background-color: #fff;
     display: flex;
@@ -464,6 +466,12 @@
 
 .bookTable .form-container button:hover {
     background-color: #e74d00;
+}
+
+@media (max-width:980px) {
+    .bookTable{
+        padding: 100px 10px;
+    }
 }
 
 .contactContainer {
